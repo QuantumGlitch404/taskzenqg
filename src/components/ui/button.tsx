@@ -18,6 +18,8 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        gooeyLeft: "relative text-primary-foreground transition-colors duration-300 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-accent before:transition-transform before:duration-300 before:ease-in-out hover:text-accent-foreground hover:before:scale-x-100",
+        gooeyRight: "relative text-primary-foreground transition-colors duration-300 before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-right before:scale-x-0 before:bg-accent before:transition-transform before:duration-300 before:ease-in-out hover:text-accent-foreground hover:before:scale-x-100",
       },
       size: {
         default: "h-10 px-4 py-2",
